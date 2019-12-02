@@ -1,0 +1,6 @@
+# manifest.yml
+applications:
+- name: kodemia2-ci
+  memory: 32M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/nginx-buildpack.git
